@@ -1,0 +1,7 @@
+C:\Users\amaltri0308\source\repos\Ejercicio6_EventosyDelegadosI\Ejercicio6_EventosyDelegadosI\bin\Debug\Ejercicio6_EventosyDelegadosI.exe.config
+C:\Users\amaltri0308\source\repos\Ejercicio6_EventosyDelegadosI\Ejercicio6_EventosyDelegadosI\bin\Debug\Ejercicio6_EventosyDelegadosI.exe
+C:\Users\amaltri0308\source\repos\Ejercicio6_EventosyDelegadosI\Ejercicio6_EventosyDelegadosI\bin\Debug\Ejercicio6_EventosyDelegadosI.pdb
+C:\Users\amaltri0308\source\repos\Ejercicio6_EventosyDelegadosI\Ejercicio6_EventosyDelegadosI\obj\Debug\Ejercicio6_EventosyDelegadosI.csproj.AssemblyReference.cache
+C:\Users\amaltri0308\source\repos\Ejercicio6_EventosyDelegadosI\Ejercicio6_EventosyDelegadosI\obj\Debug\Ejercicio6_EventosyDelegadosI.csproj.CoreCompileInputs.cache
+C:\Users\amaltri0308\source\repos\Ejercicio6_EventosyDelegadosI\Ejercicio6_EventosyDelegadosI\obj\Debug\Ejercicio6_EventosyDelegadosI.exe
+C:\Users\amaltri0308\source\repos\Ejercicio6_EventosyDelegadosI\Ejercicio6_EventosyDelegadosI\obj\Debug\Ejercicio6_EventosyDelegadosI.pdb
