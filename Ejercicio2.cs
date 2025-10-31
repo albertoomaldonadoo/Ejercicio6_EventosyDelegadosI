@@ -28,17 +28,17 @@ public class Ejercicio2
 
     public class ServicioAlerta
     {
-        public void EnviarAlerta(object sender, TemperaturaEventArgs e)
+        public void EnviarAlerta(object sender, TemperaturaEventArgs evento)
         {
-            Console.WriteLine($"Alerta: Temperatura {e.Temperatura}°C supera el umbral de {e.Umbral}°C");
+            Console.WriteLine($"Alerta: Temperatura {evento.Temperatura}°C supera el umbral de {evento.Umbral}°C");
         }
     }
 
     public class ServicioRegistroTemperatura
     {
-        public void RegistrarTemperatura(object sender, TemperaturaEventArgs e)
+        public void RegistrarTemperatura(object sender, TemperaturaEventArgs evento)
         {
-            Console.WriteLine($"Registro: Temperatura registrada {e.Temperatura}°C");
+            Console.WriteLine($"Registro: Temperatura registrada {evento.Temperatura}°C");
         }
     }
 

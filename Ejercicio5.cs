@@ -24,15 +24,15 @@ public class Ejercicio5
 
     public class ServicioNotificacion
     {
-        public void EnviarAdvertencia(object sender, EnergiaEventArgs e)
+        public void EnviarAdvertencia(object sender, EnergiaEventArgs evento)
         {
-            Console.WriteLine($"Advertencia: Consumo {e.Consumo} kWh supera umbral {e.Umbral} kWh");
+            Console.WriteLine($"Advertencia: Consumo {evento.Consumo} kWh supera umbral {evento.Umbral} kWh");
         }
     }
 
     public class ServicioAjusteAutomatizado
     {
-        public void AjustarDispositivos(object sender, EnergiaEventArgs e)
+        public void AjustarDispositivos(object sender, EnergiaEventArgs evento)
         {
             Console.WriteLine("Ajustando dispositivos para reducir consumo...");
         }

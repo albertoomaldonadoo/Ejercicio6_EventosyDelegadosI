@@ -28,17 +28,17 @@ public class Ejercicio3
 
     public class ServicioNotificacion
     {
-        public void NotificarBackup(object sender, BackupEventArgs e)
+        public void NotificarBackup(object sender, BackupEventArgs evento)
         {
-            Console.WriteLine($"Notificación: Backup completado de {e.Archivo}");
+            Console.WriteLine($"Notificación: Backup completado de {evento.Archivo}");
         }
     }
 
     public class ServicioLog
     {
-        public void RegistrarBackup(object sender, BackupEventArgs e)
+        public void RegistrarBackup(object sender, BackupEventArgs evento)
         {
-            Console.WriteLine($"Log: {e.Archivo} respaldado a las {e.Fecha}");
+            Console.WriteLine($"Log: {evento.Archivo} respaldado a las {evento.Fecha}");
         }
     }
 

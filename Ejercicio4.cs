@@ -27,17 +27,17 @@ public class Ejercicio4
 
     public class ServicioAlarma
     {
-        public void ActivarAlarma(object sender, IntrusoEventArgs e)
+        public void ActivarAlarma(object sender, IntrusoEventArgs evento)
         {
-            Console.WriteLine($"Alarma: {e.Sensor} detectado fuera de horario a las {e.Hora}");
+            Console.WriteLine($"Alarma: {evento.Sensor} detectado fuera de horario a las {evento.Hora}");
         }
     }
 
     public class ServicioRegistroIncidencias
     {
-        public void RegistrarIncidencia(object sender, IntrusoEventArgs e)
+        public void RegistrarIncidencia(object sender, IntrusoEventArgs evento)
         {
-            Console.WriteLine($"Registro: Incidencia en {e.Sensor} a las {e.Hora}");
+            Console.WriteLine($"Registro: Incidencia en {evento.Sensor} a las {evento.Hora}");
         }
     }
 
